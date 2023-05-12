@@ -20,7 +20,7 @@ const App: React.FC = () => {
     for (let i = 0; i < 2000; i++) {
       const data = {
         key: i.toString(),
-        title: `content${i + 1}`,
+        title: `SUI分组${i + 1}`,
         description: `description of content${i + 1}`,
         chosen: i % 2 === 0,
       };
